@@ -1,0 +1,59 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+    <!-- This code is only meant for previewing your Reflow design. -->
+
+    <head>
+	<link rel="stylesheet" href='{% static "css/boilerplate.css" %}'>
+	<link rel="stylesheet" href='{% static "css/message_received.css" %}'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+    </head>
+    <body>
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <p id="text">
+        Welcome To Cryptography
+        </p>
+        <a href="/message">
+            <input id="input" type="button" value="Send Message"></input>
+        </a>
+        <a href="/logout">
+            <input id="input" type="button" value="Logout"></input>
+        </a>
+        {% for object in instance %}
+        <div id="box" class="clearfix">
+            <p id="Text">
+            Message Received
+            </p>
+            <div id="box1" class="clearfix">
+                <p id="text1">
+                Sender&#x3a;
+                </p>
+                <p id="text2">
+                {{ object.user_name }}
+                </p>
+                <p id="text3">
+                Message&#x3a;
+                </p>
+                <p id="text4">
+                {{ object.message }}
+                </p>
+                <p id="text5">
+                Message Date&#x3a;
+                </p>
+                <p id="text6">
+                {{ time }}
+                </p>
+                 <p id="text1">
+                Public Key&#x3a;
+                </p>
+                <p id="text2">
+                {{ object.user_id}}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    </body>
+</html>

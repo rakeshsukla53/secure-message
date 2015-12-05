@@ -1,0 +1,384 @@
+
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("../img/Family-Insurance.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box {
+    float: left;
+    height: 483px;
+    margin: 21.5px 0px 0px 35.489154%;
+    clear: both;
+    width: 33.004429%;
+    background-color: rgba(0, 0, 0, 0.709804);
+    opacity: 0.8;
+    min-height: 0px;
+}
+
+#input {
+    float: left;
+    height: 35px;
+    font-size: 1.5em;
+    margin: 6px 0% 0px 36.797364%;
+    clear: both;
+    width: 29.001056%;
+    font-family: arial;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 178, 99);
+    position: static;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: 1px solid rgb(40, 178, 99);
+}
+
+#text {
+    float: left;
+    font-size: 2em;
+    width: 57.392265%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 17.246414%;
+    margin-top: 5px;
+    clear: none;
+    min-height: 66px;
+    font-family: arial;
+}
+
+#textspan1 {
+    float: none;
+    font-size: 1.5em;
+    line-height: 1em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+#formgroup {
+    float: left;
+    height: 55px;
+    display: block;
+    text-align: left;
+    margin: 2px 0% 0px 3%;
+    clear: none;
+    width: 94%;
+}
+
+#id_uname {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    margin-top: 6.375px;
+    margin-left: 0%;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: arial;
+}
+
+#textinput {
+    float: none;
+    height: 26px;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0%;
+    clear: none;
+}
+
+#textspan {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+#textspan2 {
+    float: none;
+    font-size: 0.6em;
+    line-height: 1em;
+    color: rgb(251, 244, 244);
+    opacity: 0.77;
+}
+
+#formgroup1 {
+    float: left;
+    height: 55px;
+    display: block;
+    text-align: left;
+    margin: 5px 0% 0px 2.997641%;
+    clear: both;
+    width: 94%;
+}
+
+#id_upassword {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    margin-top: 6.375px;
+    margin-left: 0%;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+}
+
+#textinput1 {
+    float: none;
+    height: 26px;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0%;
+    clear: none;
+}
+
+#formgroup2 {
+    float: left;
+    height: 55px;
+    display: block;
+    text-align: left;
+    margin: 5px 0% 0px 2.997641%;
+    clear: both;
+    width: 94%;
+}
+
+#id_uphone {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    margin-top: 4.375px;
+    margin-left: 0%;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+}
+
+#textinput2 {
+    float: none;
+    height: 26px;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 2px;
+    margin-left: 0%;
+    clear: none;
+}
+
+#formgroup6 {
+    float: left;
+    height: 55px;
+    display: block;
+    text-align: left;
+    margin: 4px 0% 0px 3.017978%;
+    clear: both;
+    width: 94%;
+}
+
+#id_uaddress {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    margin-top: 6.375px;
+    margin-left: 0%;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+}
+
+#textinput6 {
+    float: none;
+    height: 26.25px;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0%;
+    clear: none;
+}
+
+#formgroup3 {
+    float: left;
+    height: 55px;
+    display: block;
+    text-align: left;
+    margin: 5px 0% 0px 2.997641%;
+    clear: both;
+    width: 94%;
+}
+
+#id_uemail {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    margin-top: 4.375px;
+    margin-left: 0%;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+}
+
+#textinput3 {
+    float: none;
+    height: 26px;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 2px;
+    margin-left: 0%;
+    clear: none;
+}
+
+#formgroup4 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin: 5px 0% 0px 2.997641%;
+    clear: both;
+    width: 94%;
+}
+
+#id_uintro {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    margin-top: 4.375px;
+    margin-left: 0%;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+}
+
+#textinput4 {
+    float: none;
+    height: 4.25em;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 2px;
+    margin-left: 0%;
+    clear: none;
+}
+
+#formgroup5 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin: 8px 0% 0px 2.997641%;
+    clear: both;
+    width: 94%;
+}
+
+#id_uphoto {
+    float: none;
+    font-size: 1em;
+    width: 30.951969%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    margin: 0px 0px 0px 0%;
+    clear: none;
+    min-height: 27px;
+    color: rgb(255, 255, 255);
+}
+
+#textinput5 {
+    float: none;
+    height: 26px;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 67.165729%;
+    margin-top: -27.625px;
+    margin-left: 32.812635%;
+    clear: none;
+}
+
+#text1 {
+    float: left;
+    font-size: 2.5em;
+    width: 22.615271%;
+    height: auto;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1em;
+    margin-left: 42.53517%;
+    margin-top: 38.5px;
+    clear: both;
+    min-height: 40px;
+    font-family: arial;
+    display: block;
+    margin-right: 0%;
+    color: rgb(49, 130, 84);
+}
+

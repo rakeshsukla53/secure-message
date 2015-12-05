@@ -1,0 +1,208 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("../img/640_data-web.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#input345 {
+    float: left;
+    height: 43px;
+    font-size: 1.5em;
+    margin-left: 3.84143%;
+    margin-top: 17.6875px;
+    clear: none;
+    width: 17.206196%;
+    margin-right: 0%;
+    font-family: arial;
+    color: hotpink;
+    font-weight: 600;
+    display: block;
+    background-color: black;
+}
+
+
+#text {
+    float: left;
+    font-size: 3em;
+    width: 71.86857%;
+    height: auto;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+    margin-left: 8.14429%;
+    margin-top: 19px;
+    clear: none;
+    min-height: 68px;
+    font-family: Tahoma;
+    color: rgb(236, 232, 33);
+}
+
+#input {
+    float: left;
+    height: 43px;
+    font-size: 1.5em;
+    margin-left: 18.733952%;
+    margin-top: 12.1875px;
+    clear: both;
+    width: 43.281273%;
+    margin-right: 0%;
+    font-family: arial;
+    color: rgb(236, 232, 33);
+    background-color: rgb(53, 178, 244);
+    font-weight: 600;
+}
+
+#box {
+    float: left;
+    height: 458px;
+    margin-left: 4.06005%;
+    margin-top: 61px;
+    clear: both;
+    width: 39.755281%;
+}
+
+#formgroup {
+    float: left;
+    height: 78.59375px;
+    display: block;
+    text-align: left;
+    margin: 10px 0px 0px 3%;
+    clear: none;
+    width: 80%;
+}
+
+#select {
+    float: none;
+    height: 40px;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    background-color: rgb(243, 239, 162);
+}
+
+#id_user_name {
+    float: none;
+    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    font-family: arial;
+    color: rgb(236, 232, 33);
+}
+
+#formgroup1 {
+    float: left;
+    height: 103.59375px;
+    display: block;
+    text-align: left;
+    margin: 15px 0px 0px 3%;
+    clear: both;
+    width: 80%;
+}
+
+#textinput {
+    float: none;
+    height: 4.375em;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    background-color: rgb(243, 239, 162);
+}
+
+#id_message {
+    float: none;
+    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    font-family: arial;
+    color: rgb(236, 232, 33);
+}
+
+#formgroup2 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin: 15px 0px 0px 3%;
+    clear: both;
+    width: 80%;
+}
+
+#textinput1 {
+    float: none;
+    height: 40px;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    background-color: rgb(243, 239, 162);
+}
+
+#id_encrypted_message {
+    float: none;
+    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    color: rgb(236, 232, 33);
+    font-family: arial;
+}
+
+#formgroup3 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin: 15px 0px 0px 3%;
+    clear: both;
+    width: 80%;
+}
+
+#textinput2 {
+    float: none;
+    height: 40px;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    background-color: rgb(243, 239, 162);
+}
+
+#id_hashed_message {
+    float: none;
+    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    font-family: arial;
+    color: rgb(236, 232, 33);
+}
+

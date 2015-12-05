@@ -1,0 +1,67 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+    <head>
+	<link rel="stylesheet" href='{% static "css/boilerplate.css" %}'>
+	<link rel="stylesheet" href='{% static "css/send_message.css" %}'>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+    </head>
+    <body>
+
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <h1 id="text">
+         Welcome to Cryptography
+        </h1>
+		<form method="post" action=''>
+                {% csrf_token %}
+        <div id="box" class="clearfix">
+
+            <label id="formgroup">
+                <p id="id_user_name">
+                To:
+                </p>
+                <select id="select" type="select" name="user_name">
+				<option value="" selected="selected">---------</option>
+                <option value="1">rakesh</option>
+                    <option value="1">janvi</option>
+                     <option value="1">peter</option>
+                     <option value="1">vamsi</option>
+
+				</select>
+            </label>
+            <label id="formgroup1">
+                <p id="id_message">
+                Message:
+                </p>
+                <textarea id="textinput" cols="40" name="message" rows="10" >
+				</textarea>
+            </label>
+            <label id="formgroup2">
+                <p id="id_encrypted_message">
+                Cipher Text:
+                </p>
+                <input id="textinput1" maxlength="200" name="encrypted_message" type="text" ></input>
+            </label>
+            <label id="formgroup3">
+                <p id="id_hashed_message">
+                SHA3 Hashed:
+                </p>
+                <input id="textinput2" maxlength="100" name="hashed_message" type="text"></input>
+            </label>
+            <input id="input" type="submit" value="Send Message"></input>
+
+        </a>
+        </div>
+            <a href="/received">
+            <input id="input345" type="button" value="Inbox"></input>
+        </a>
+        <a href="/logout">
+            <input id="input345" type="button" value="Logout"></input>
+		</form>
+    </div>
+    </body>
+</html>
+

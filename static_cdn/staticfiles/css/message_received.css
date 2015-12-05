@@ -1,0 +1,279 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("../img/640_data-web.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#text {
+    float: left;
+    font-size: 3em;
+    width: 67.588701%;
+    height: auto;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1em;
+    margin-left: 8.143107%;
+    margin-top: 19px;
+    clear: none;
+    min-height: 68px;
+    font-family: Tahoma;
+    color: rgb(236, 232, 33);
+}
+
+#box {
+    float: left;
+    height: auto;
+    margin-left: 2.55848%;
+    margin-top: 58px;
+    clear: both;
+    width: 89.790853%;
+}
+
+#Text {
+    float: left;
+    font-size: 2em;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 2em;
+    margin: 22px 0% 0px 2%;
+    clear: none;
+    min-height: 61px;
+    font-family: arial;
+    color: rgb(236, 232, 33);
+}
+
+#box1 {
+    float: left;
+    height: auto;
+    margin: 16px 0% 0px 1.997499%;
+    clear: both;
+    width: 78.710291%;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.658824);
+    background-color: rgba(0, 0, 0, 0.329412);
+}
+
+#text1 {
+    float: left;
+    font-size: 1em;
+    width: 15.263859%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 2.193813%;
+    margin-top: 12px;
+    clear: none;
+    min-height: 27px;
+    color: rgb(236, 232, 33);
+    border: 0px solid rgb(243, 239, 162);
+}
+
+#text3 {
+    float: left;
+    font-size: 1em;
+    width: 15.263859%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 2.194385%;
+    margin-top: 0px;
+    clear: both;
+    min-height: 24px;
+    color: rgb(236, 232, 33);
+    border: 0px solid rgb(243, 239, 162);
+}
+
+#text5 {
+    float: left;
+    font-size: 1em;
+    width: 15.263859%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 2.194385%;
+    margin-top: 0px;
+    clear: both;
+    min-height: 24px;
+    color: rgb(236, 232, 33);
+    border: 0px solid rgb(243, 239, 162);
+}
+
+#text2 {
+    float: left;
+    font-size: 1em;
+    width: 82.5442%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 12px;
+    clear: none;
+    min-height: 27px;
+    color: rgb(236, 232, 33);
+    display: block;
+    margin-right: 0%;
+    border: 0px solid rgb(243, 239, 162);
+}
+
+#text4 {
+    float: left;
+    font-size: 1em;
+    width: 82.540694%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 24px;
+    color: rgb(236, 232, 33);
+    display: block;
+    margin-right: 0%;
+    border: 0px solid rgb(243, 239, 162);
+}
+
+#text6 {
+    float: left;
+    font-size: 1em;
+    width: 82.540694%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 24px;
+    color: rgb(236, 232, 33);
+    display: block;
+    margin-right: 0%;
+    border: 0px solid rgb(243, 239, 162);
+}
+
+#input {
+    float: left;
+    height: 43px;
+    font-size: 1.5em;
+    margin-left: 3.84143%;
+    margin-top: 17.6875px;
+    clear: none;
+    width: 17.206196%;
+    margin-right: 0%;
+    font-family: arial;
+    color: rgb(236, 232, 33);
+    font-weight: 600;
+    display: block;
+    background-color: rgb(53, 178, 244);
+}
+
+#box2 {
+    float: left;
+    height: auto;
+    margin: 33px 0% 0px 1.897188%;
+    clear: both;
+    width: 78.710291%;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.658824);
+    background-color: rgba(0, 0, 0, 0.329412);
+}
+
+#text7 {
+    float: left;
+    font-size: 1em;
+    width: 15.263859%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 2.193813%;
+    margin-top: 12px;
+    clear: none;
+    min-height: 27px;
+    color: rgb(236, 232, 33);
+    border: 0px solid rgb(243, 239, 162);
+}
+
+#text8 {
+    float: left;
+    font-size: 1em;
+    width: 82.5442%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 12px;
+    clear: none;
+    min-height: 27px;
+    color: rgb(236, 232, 33);
+    display: block;
+    margin-right: 0%;
+    border: 0px solid rgb(243, 239, 162);
+}
+
+#text9 {
+    float: left;
+    font-size: 1em;
+    width: 15.263859%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 2.194385%;
+    margin-top: 0px;
+    clear: both;
+    min-height: 24px;
+    color: rgb(236, 232, 33);
+    border: 0px solid rgb(243, 239, 162);
+}
+
+#text10 {
+    float: left;
+    font-size: 1em;
+    width: 82.540694%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 24px;
+    color: rgb(236, 232, 33);
+    display: block;
+    margin-right: 0%;
+    border: 0px solid rgb(243, 239, 162);
+}
+
+#text11 {
+    float: left;
+    font-size: 1em;
+    width: 15.263859%;
+    height: auto;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: 2.194385%;
+    margin-top: 0px;
+    clear: both;
+    min-height: 24px;
+    color: rgb(236, 232, 33);
+    border: 0px solid rgb(243, 239, 162);
+}
+

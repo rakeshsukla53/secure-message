@@ -1,0 +1,42 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+    <!-- This code is only meant for previewing your Reflow design. -->
+    <head>
+        <link rel="stylesheet" href='{% static "css/boilerplate.css" %}' />
+        <link rel="stylesheet" href='{% static "css/index.css" %}' />
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+    </head>
+    <body>
+
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <p id="text">
+        <span id="textspan"></span><span id="textspan1">&nbsp;&nbsp;</span><span id="textspan2">Applied Cryptography Project 2</span><br />
+        </p>
+        <button id = 'input' onclick="location.href='/message'">Message</button>
+        <div id="box" class="clearfix">
+            <p id="text2">
+            <span id="textspan4"></span><br />
+            </p>
+            <form method="post" action='{% url "login-redirect" %}'> {% csrf_token %}
+                <label id="formgroup">
+                    <p id="text3">
+                    <br />
+                    </p>
+                    <input id="textinput" type="text" name="username" placeholder="Username"/>
+                </label>
+                <label id="formgroup1">
+                    <p id="text4">
+                    <br />
+                    </p>
+                    <input id="textinput1" type="password" name="password" placeholder="Password"/>
+                </label>
+
+                <input id='input1' type="submit" value="Login"/>
+           </form>
+        </div>
+    </div>
+    </body>
+</html>

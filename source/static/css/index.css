@@ -1,0 +1,232 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("../img/Family-Insurance123.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#input {
+    float: left;
+    height: 36px;
+    font-size: 1em;
+    margin: 20px 0px 0px 4.232566%;
+    clear: none;
+    width: 6.886616%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.309804);
+    font-family: arial;
+    line-height: 1em;
+    opacity: 0.6;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-weight: 500;
+}
+
+#box {
+    float: left;
+    height: 173.578125px;
+    margin: 22px 0px 0px 25.453954%;
+    clear: both;
+    width: 50.805401%;
+    background-color: rgba(0, 0, 0, 0.709804);
+    opacity: 0.8;
+    min-height: 0px;
+}
+
+#input1 {
+    float: left;
+    height: 45px;
+    font-size: 1.5em;
+    margin-left: -13.898163%;
+    margin-top: 107.19999694824219px;
+    clear: none;
+    width: 13.899101%;
+    font-family: arial;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 178, 99);
+    position: static;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    margin-right: 0%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: 1px solid rgb(40, 178, 99);
+}
+
+#text {
+    float: left;
+    font-size: 2em;
+    width: 57.392265%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 17.175144%;
+    margin-top: 5px;
+    clear: none;
+    min-height: 66px;
+    font-family: arial;
+}
+
+#textspan1 {
+    float: none;
+    font-size: 1.5em;
+    line-height: 1em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+#text1 {
+    float: left;
+    font-size: 2em;
+    width: 45.969626%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 172px 0px 0px 29.111251%;
+    clear: both;
+    min-height: 65px;
+    font-family: arial;
+}
+
+#textspan3 {
+    float: none;
+    font-size: 1.4em;
+    line-height: 1em;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+#formgroup1 {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin: 84.20000076293945px 0% 0px -93.966261%;
+    clear: none;
+    width: 79.293199%;
+}
+
+#textinput1 {
+    float: none;
+    height: 45px;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+}
+
+#text4 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+}
+
+#formgroup {
+    float: left;
+    height: 81px;
+    display: block;
+    text-align: left;
+    margin: 33.19999980926514px 0% 0px -93.968472%;
+    clear: none;
+    width: 93.968472%;
+}
+
+#text3 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+    margin-top: 6.375px;
+    margin-left: 0%;
+    clear: none;
+    min-height: 0px;
+}
+
+#textinput {
+    float: none;
+    height: 45px;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    margin-top: -5.75px;
+    margin-left: 0%;
+    clear: none;
+}
+
+#text2 {
+    float: left;
+    font-size: 2em;
+    width: 93.966395%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 7.2px 0% 0px 2.5%;
+    clear: none;
+    min-height: 0px;
+    font-family: arial;
+    display: block;
+}
+
+#textspan4 {
+    float: none;
+    font-size: 0.7em;
+    line-height: 1em;
+    color: rgb(251, 244, 244);
+    opacity: 0.77;
+    font-weight: 500;
+}
+
+#textspan {
+    float: none;
+    font-size: 1em;
+    line-height: 5em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+}
+
+#textspan2 {
+    float: none;
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:70%;
+    left: 2%;
+}
+

@@ -1,0 +1,16 @@
+# global gitignore for IDE, etc
+# -- should still exclude project specific ignores in .gitignore
+
+# system junk
+.netrwhist
+.Trash-1000
+*.pyc
+npm-debug.log
+
+# IDEs
+.idea
+.env
+
+# private files
+id_rsa
+*.key
