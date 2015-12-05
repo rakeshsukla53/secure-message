@@ -85,7 +85,7 @@ Step 1:`Git clone https://github.com/rakeshsukla53/secure-message`
 
 Step 2: Go to the `secure-message` folder. Navigate to `source` folder.
 
-Step 3: `pip install -r requirements.txt'
+Step 3: `pip install -r requirements.txt`
 
 Step 4: `python manage.py runserver`
 
