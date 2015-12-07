@@ -136,7 +136,10 @@ Step 7: `python manage.py runserver`
 
 Step 8: Go to `localhost:8000/login` to start the app.
  
+If you see the below page, then everything is fine! Otherwise shoot a mail [rrs402@nyu.edu]
  
+
+![Front Page](https://github.com/rakeshsukla53/secure-message/blob/master/source/static/img/Front%20Page.png)
  
  
  
