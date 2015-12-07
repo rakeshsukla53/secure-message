@@ -88,16 +88,16 @@ This is a web application and technologies used to build this is `Python`, `Djan
 * Once the installation is successful then you need to follow the guide [here](https://github.com/codingforentrepreneurs/Guides/blob/master/all/postgresql_and_django.md) to setup settings for `Django` application. The `postgreSQL` database setting should exactly match with `Django` settings.
 
 
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'nextdoor',
-            'USER': 'rakesh',
-            'PASSWORD': 'ranjan',
-            'HOST': 'localhost',
-            'PORT': '',
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                'NAME': 'nextdoor',
+                'USER': 'rakesh',
+                'PASSWORD': 'ranjan',
+                'HOST': 'localhost',
+                'PORT': '',
+            }
         }
-    }
 
 * My Dev Environment is Linux Ubuntu 14.04
 
@@ -138,7 +138,6 @@ Step 8: Go to `localhost:8000/login` to start the app.
  
 If you see the below page, then everything is fine! Otherwise shoot a mail [rrs402@nyu.edu]
  
-
 ![Front Page](https://github.com/rakeshsukla53/secure-message/blob/master/source/static/img/Front%20Page.png)
  
  
