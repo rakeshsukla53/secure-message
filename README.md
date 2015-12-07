@@ -109,12 +109,12 @@ This is a web application and technologies used to build this is `Python`, `Djan
 
 * Packages you need to install is listed down below.
 
-    Django==1.8.6
-    django-registration-redux==1.2
-    Pillow==3.0.0
-    psycopg2==2.6.1
-    pycrypto==2.6.1
-    wheel==0.24.0
+        Django==1.8.6
+        django-registration-redux==1.2
+        Pillow==3.0.0
+        psycopg2==2.6.1
+        pycrypto==2.6.1
+        wheel==0.24.0
 
 * I have used virtual environment `virtualenv`, and all packages and files are contained in one folder. Unfortunately `postgreSQL` database is not portable, and you need to setup exactly as in my Django setting. Otherwise you won't be able build `tables` and send `messages`. 
 
