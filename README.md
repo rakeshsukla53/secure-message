@@ -79,26 +79,62 @@ Nobody can change the digital signature, and it is unique.
 ![Page 12](https://github.com/rakeshsukla53/secure-message/blob/master/static_cdn/staticfiles/img/Page%2012.png)
 
 
+# Additional Information for TA
+
+This is a web application and technologies used to build this is `Python`, `Django`, `Crypto Modules`, `Django Modules`, `PostgreSQL Database`, `HTML, CSS`. Before running this application, you need to install `postgreSQL` database, and perform the following steps:
+
+* Follow the link to install [PostgreSQL](https://github.com/codingforentrepreneurs/Guides/blob/master/all/install_postgresql_mac_&_linux.md)
+
+* Once the installation is successful then you need to follow the guide [here](https://github.com/codingforentrepreneurs/Guides/blob/master/all/postgresql_and_django.md) to setup settings for `Django` application. The `postgreSQL` database setting should exactly match with `Django` settings.
+
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'nextdoor',
+            'USER': 'rakesh',
+            'PASSWORD': 'ranjan',
+            'HOST': 'localhost',
+            'PORT': '',
+        }
+    }
+
+* My Dev Environment is Linux Ubuntu 14.04
+
+* Programming Languages - Python 2.7, HTML, CSS, Javascript, Jquery
+
+* Web Framework - Django 1.8.6
+ 
+* For generating digital signature for each user we have used a `UUID` package in Django. Its an inbuild library, so you don't have to worry about it. 
+
+* Packages you need to install is listed down below.
+
+    Django==1.8.6
+    django-registration-redux==1.2
+    Pillow==3.0.0
+    psycopg2==2.6.1
+    pycrypto==2.6.1
+    wheel==0.24.0
+
+* I have used virtual environment `virtualenv`, and all packages and files are contained in one folder. Unfortunately `postgreSQL` database is not portable, and you need to setup exactly as in my Django setting. Otherwise you won't be able build `tables` and send `messages`. 
+
 # How to run
 
 Step 1:`Git clone https://github.com/rakeshsukla53/secure-message`
 
-Step 2: Go to the `secure-message` folder. Navigate to `source` folder.
+Step 2: Go to the `secure-message` folder. 
 
-Step 3: `pip install -r requirements.txt`
+Step 3: Activate the virtual environment `source bin/activate`. 
 
-Step 4: `python manage.py runserver`
+Step 4: Navigate to `source` folder.
 
-Step 4: Go to `localhost:8000` to start the app.
+Step 5: `pip install -r requirements.txt` If you need pip to install all requirements. If you don't have `pip`, then follow this [guide](http://www.liquidweb.com/kb/how-to-install-pip-on-ubuntu-14-04-lts/)
 
- 
+Step 6: If you have installed `postgreSQL` then navigate skip this step.
 
- 
- 
+Step 7: `python manage.py runserver`
 
-
-
- 
+Step 8: Go to `localhost:8000/login` to start the app.
  
  
  
